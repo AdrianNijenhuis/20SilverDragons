@@ -1,0 +1,129 @@
+LINKMULTI = Count
+
+;Dragon
+;LINK = "19_xrioZ8R-x6B0RSU2FDawvGToSHDfQTJIs9aNNONzQ"
+
+;Druid
+;LINK = "1OPJtNNanr7qkLDlV5P_-WxVXz82ekcrhfajpI6nUSp0"
+
+;Necromancer
+;LINK = "1Sr6n4UHt_JY7cmAm4KHgqHru3lckJmTB_ZxYkPvuRu4"
+
+;Paladin
+;LINK = "1bqGpoziJvEECtFm-dWOgTnj9FYTTbfZEPyYYsTgLbis"
+
+;Vampire
+;LINK = "1lLH7gi7L0AOigHKQrtxpby9Y8LXX4kG1mxGHMNv0iVg"
+
+;Expansion
+;LINK = "1SQ45bJKmRHQyG4OJXBEh8kgOoPqH0Rw5cSnEe-OXW2Q"
+
+;Compendium
+;LINK = "19U72fDyJuEcKinZHkgGufv9KcOQ7OTnIvn_YPcrZvyY"
+
+;Heroes
+;LINK = "1ijzu2Y-yuhBsj3ZgUy-OgkimuZl5qgHXOL5v9N9cpuk"
+
+;Custom
+LINK = "1tm4Oc4zrDokG2lHXoWK2LvURWfel_nzN4SNzV13X4og"
+
+; Settings
+UNIT = INCH
+PAGE = 8.5, 11, PORTRAIT
+BORDER =    ROUNDED, #000000, 0.1
+
+
+VISUAL=, 10, 10
+;Parchment Backdrop
+IMAGE=,Parchment.jpg,0%,0%,100%,100%
+;Art Box Outline
+RECTANGLE=,{14400/667}%,14%,{37200/667}%,38.7%,#000000,#000000,.05
+;Title Box
+RECTANGLE=,{3800/667}%,7.6%,{59600/667}%,7.1%,#000000,#C7C5BE,.04
+;Title Text Font
+FONT=Lucida Calligraphy,9,TB,#000000
+;Title Text
+TEXT="1-{(NAME)}",[NAME],0%,7.2%,100%,8.4%
+;Magic Mana Circle
+CIRCLE=,{4400/667}%,-0.2%,{6600/667}%,10%,#000000,#4F6ADE,.02
+;Silver Cost Circle
+CIRCLE=,{55900/667}%,-0.4%,{6600/667}%,10%,#000000,#CBCACE,.02
+;Mana Cost Font
+FONT=Arial Narrow,15,BT,#A52A2A,#0048BA
+;Mana Cost Text
+TEXT="1-{(COST)}",[COST],{1600/667}%,-0.5%,{12200/667}%,10.4%
+;Silver Cost Font
+FONT=Arial Narrow,15,BT,#A52A2A,#0048BA
+;Silver Cost Text
+TEXT="1-{(COST 2)}",[COST 2],{53200/667}%,-0.7%,{12200/667}%,10.4%
+;Art
+IMAGE="1-{(IMAGE)}",[IMAGE],{15200/667}%,15.4%,{35700/667}%,36.6%
+;Subtype Box
+ELLIPSE=,{23100/667}%,47%,{19900/667}%,10.1%,#000000,#F2F3F4,.015
+;Description Space
+RECTANGLE=,{3800/667}%,52.2%,{59600/667}%,38.3%,#000000,#C8AD7F,.04
+;Description 1 Text Font
+FONT=Arial,4.5,T,#000000
+;Description 1 Text
+TEXT="1-{(DESCRIPTION 1)}",[DESCRIPTION 1],{6600/667}%,59.9%,{53200/667}%,10%,LEFT,WWCENTER
+;Description 2 Text Font
+FONT=Arial,4.5,T,#000000
+;Description 2 Text
+TEXT="1-{(DESCRIPTION 2)}",[DESCRIPTION 2],{6600/667}%,69.9%,{53200/667}%,10.4%,LEFT,WWCENTER
+;Description 3 Text Font
+FONT=Arial,4.5,T,#000000
+;Description 3 Text
+TEXT="1-{(DESCRIPTION 3)}",[DESCRIPTION 3],{6600/667}%,80.2%,{53200/667}%,10%,LEFT,WWCENTER
+;Health Box
+RECTANGLE=,{33200/667}%,90%,{33600/667}%,10%,#000000,#6EA603,.05
+;Attack Box
+RECTANGLE=,0%,90%,{33500/667}%,10%,#000000,#871113,.05
+;Black Corner 1
+RECTANGLE=,0%,97%,{2000/667}%,3%,#000000
+;Black Corner 2
+RECTANGLE=,{64700/667}%,97%,{2000/667}%,3%,#000000
+;Attack Font
+FONT=Arial Narrow,18,BT,#00000,#007FFF
+;Attack Text
+TEXT="1-{(ATTACK)}",[ATTACK],0%,88.9%,{33400/667}%,11.1%
+;Health Font
+FONT=Arial Narrow,18,BT,#00000,#007FFF
+;Health Text
+TEXT="1-{(HEALTH)}",[HEALTH],{33200/667}%,88.7%,{33700/667}%,11.3%
+;Type Box
+RECTANGLE=,{3800/667}%,52.3%,{59600/667}%,4.4%,#000000,#B4C1DB,.034
+;Study/Origin Font
+FONT=Arial Narrow,8,BT,#00000,#007FFF
+;Type Text
+TEXT="1-{(TYPE)}",[TYPE],{3700/667}%,52.1%,{59200/667}%,4.7%
+;Magical Study Box
+RECTANGLE=,{3800/667}%,56.2%,{20000/667}%,4.2%,#000000,#927C99,.034
+;Magical Study Text
+TEXT="1-{(MAGICAL STUDY)}",[MAGICAL STUDY],{3700/667}%,56%,{700/23}%,4.7%
+;O1 Box
+RECTANGLE=,{23400/667}%,56.2%,{19900/667}%,4.2%,#000000,#A19F99,.034
+;O1 Text
+TEXT="1-{(ORIGIN 1)}",[ORIGIN 1],{800/23}%,56%,{700/23}%,4.7%
+;O2 Box
+RECTANGLE=,{42700/667}%,56.2%,{20200/667}%,4.2%,#000000,#A19F99,.034
+;O2 Text
+TEXT="1-{(ORIGIN 2)}",[ORIGIN 2],{42500/667}%,56%,{19800/667}%,4.7%
+;SUBTYPE
+TEXT="1-{(SUBTYPE)}",[SUBTYPE],{6400/667}%,10%,{53300/667}%,80%
+ENDVISUAL
+
+
+; Uncomment/Comment ";"
+;DISPLAY = "0D1_DragonDeck.png"
+;DISPLAY = "0D1_DruidDeck.png"
+;DISPLAY = "0D1_NecromancerDeck.png"
+;DISPLAY = "0D1_PaladinDeck.png"
+;DISPLAY = "0D1_VampireDeck.png"
+;DISPLAY = "0D1_CustomDeck.png"
+;DISPLAY = "0E1_ExpansionCards.png"
+;DISPLAY = "0C1_Compendium1.png"
+;DISPLAY = "0C1_Compendium2.png"
+;DISPLAY = "0C1_Compendium3.png"
+;DISPLAY = "0C1_Compendium4.png"
+;DISPLAY = "0H1_Heroes.png"
+DISPLAY = "0C2_Custom5.png"
